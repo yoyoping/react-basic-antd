@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { useStore } from '../../context/Index'
-import { Button } from 'antd'
+import {Button} from 'antd'
 
 const Home_: React.FC<any> = () => {
 
@@ -30,7 +30,7 @@ const Home_: React.FC<any> = () => {
         <p>姓名：{store.userinfo.name}</p>
         <p>年龄：{store.userinfo.age}</p>
         <p>性别：{store.userinfo.sex}</p>
-        <Button type='primary' onClick={setUser}>设置</Button>
+        <Button type="primary" onClick={setUser}>设置</Button>
       </div>
     </>
   )
